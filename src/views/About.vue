@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
+  <div class="about" style="backgroud-color:red;">
+    <router-view></router-view>
     <h1>This isss an about page</h1>
   </div>
 </template>

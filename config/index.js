@@ -4,7 +4,7 @@ module.exports = {
   dev: {
     //dev-serve
     host: '127.0.0.1',
-    port: 8080,
+    port: 9090,
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
@@ -24,7 +24,7 @@ module.exports = {
     errorOverlay: false,
     productionGzip: false,
     productionGzipExtensions: ['js', 'css'],
-    assetsPublicPath: '/dist/',
+    assetsPublicPath: '/vuecli2/',
     assetsSubDirectory: 'assets',
   },
 };

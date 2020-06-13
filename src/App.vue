@@ -1,13 +1,33 @@
 <template>
   <div id="app">
-    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-view/>
+
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <router-link :to="{name:'Sub1'}">Sub1</router-link>
+      <router-link :to="{name:'Sub2'}">Sub2</router-link>
+
+
     </div>
-    <router-view/>
+    <router-view/> -->
   </div>
 </template>
+<script>
 
+export default {
+  name: "App",
+  data:()=>({
+    ll:'我在option里面声明了---app'
+  }),
+  mounted(){
+    this.tt = '我是新加的'
+    console.log(this,'app -mounted');
+    
+  }
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
