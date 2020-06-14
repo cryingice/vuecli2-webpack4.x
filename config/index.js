@@ -24,7 +24,7 @@ module.exports = {
     errorOverlay: false,
     productionGzip: false,
     productionGzipExtensions: ['js', 'css'],
-    assetsPublicPath: '/vuecli2/',
+    assetsPublicPath: '/',
     assetsSubDirectory: 'assets',
   },
 };
