@@ -23,7 +23,7 @@ export default {
   }),
   mounted(){
     this.tt = '我是新加的'
-    console.log(this,'app -mounted');
+    console.log(this,'app -mounted1111');
     
   }
 };
